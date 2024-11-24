@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra ZSE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+    <div class="w-screen h-screen flex flex-col justify-center items-center">
+        <div class="border border-white p-5">
+            <h1 id="gameheader" class="font-bold text-5xl text-center mb-5" id="game-header">Gra ZSE</h1>
+            <div>
+                <div class="flex flex-row">
+                    <div id="green" class="w-48 h-48 m-3 rounded-xl bg-green-500"></div>
+                    <div id="red" class="w-48 h-48 m-3 rounded-xl bg-red-500"></div>
+                </div>
+                <div class="flex flex-row">
+                    <div id="yellow" class="w-48 h-48 m-3 rounded-xl bg-yellow-500"></div>
+                    <div id="blue" class="w-48 h-48 m-3 rounded-xl bg-blue-500"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
